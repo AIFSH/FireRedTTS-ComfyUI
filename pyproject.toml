@@ -1,0 +1,15 @@
+[project]
+name = "fireredtts-comfyui"
+description = "a custom node for [a/FireRedTTS](https://github.com/FireRedTeam/FireRedTTS)"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["diffusers", "librosa", "soundfile", "einops", "transformers", "tiktoken", "inflect", "lingua-language-detector", "WeTextProcessing;sys_platform!=\"win32\"", "pydub", "zhon", "ffmpeg-python", "LangSegment", "numpy==1.26.4"]
+
+[project.urls]
+Repository = "https://github.com/AIFSH/FireRedTTS-ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "FireRedTTS-ComfyUI"
+Icon = ""
